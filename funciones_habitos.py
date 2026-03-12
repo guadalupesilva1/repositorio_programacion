@@ -1,7 +1,3 @@
-
-
-#guadasilva
-
 def registrar_habitos(actividad): 
     """
     descripcion: la funcion dada una actividad y la guarda en una lista 
@@ -33,8 +29,13 @@ def registrar_habitos(actividad):
             break
 
     return lista_actividades
-        
-    
 
-    
->>>>>>> Stashed changes
+def analizar_habitos(lista):
+    diccionario = {}
+    for actividad in lista:
+        if actividad not in diccionario:
+            diccionario[actividad] = 1
+        else:
+            diccionario[actividad] += 1
+    return diccionario
+
