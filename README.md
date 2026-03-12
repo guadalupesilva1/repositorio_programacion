@@ -1,1 +1,1 @@
-# repositorio_programacion 
+Descripción del repositorio: Es un programa realizado en Python que permite registrar actividades realizadas durante el día y generar un resumen de cuántas veces se repite cada actividad.  Integrantes del grupo: Micaela Cohen Clara Baietti  Sol PilipisGuadalupe Silva Información adicional: El programa utiliza listas para almacenar las actividades, ciclos while y for para ingresar y analizar las actividades, y diccionarios para generar el resumen.
